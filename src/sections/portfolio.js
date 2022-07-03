@@ -1,57 +1,8 @@
 import React, { useState } from 'react';
-import SwiperCore, { Thumbs, Autoplay } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import { Box, Container, Text, Heading } from 'theme-ui';
 import BlockTitle from 'components/block-title';
-import Image from 'components/image';
 
-import img1 from 'assets/testi-1-1.png';
-import img2 from 'assets/testi-1-2.png';
-import img3 from 'assets/testi-1-3.png';
-
-SwiperCore.use([Thumbs, Autoplay]);
-
-const TESTIMONIALS_DATA = [
-  {
-    image: img1,
-    heading: 'Pierre Hackett',
-    designation: 'VP of Engineering',
-    content:
-      'They are doing amazing job with hundred percent customer satisfaction, Love their work and would like to work with them again',
-  },
-  {
-    image: img2,
-    heading: 'Natalia Sanz',
-    designation: 'Head of Technology',
-    content:
-      'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster.',
-  },
-  {
-    image: img3,
-    heading: 'Ece Akman',
-    designation: 'Senior Marketer',
-    content:
-      'Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal.',
-  },
-  {
-    image: img2,
-    heading: 'Natalia Sanz',
-    designation: 'Head of Technology',
-    content:
-      'Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional.',
-  },
-  {
-    image: img3,
-    heading: 'Ece Akman',
-    designation: 'Senior Marketer',
-    content:
-      'Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base.',
-  },
-];
-
-const Testimonials = () => {
-  // store thumbs swiper instance
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+const Portfolio = () => {
 
   const infoParams = {
     spaceBetween: 15,
@@ -83,48 +34,20 @@ const Testimonials = () => {
     },
   };
   return (
-    <Box as="section" id="testimonials" sx={styles.testimonials}>
+    <Box as="section" id="portfolio" sx={styles.testimonials}>
       <Container>
         <BlockTitle
-          slogan="Customer Comments"
+          slogan="Portfolio"
           title="Why customers love us"
           styles={styles.blockTitle}
         />
-        <Swiper
-          id="testimonialsContent"
-          thumbs={{ swiper: thumbsSwiper }}
-          {...contentParams}
-        >
-          {TESTIMONIALS_DATA.map((testimonialText, index) => (
-            <SwiperSlide key={`testimonial-content-${index}`}>
-              <Text sx={styles.testimonialsContent} as="p">
-                {testimonialText.content}
-              </Text>
-            </SwiperSlide>
-          ))}
-        </Swiper>
 
-        <Swiper
-          id="testimonialsInfo"
-          onSwiper={setThumbsSwiper}
-          watchSlidesVisibility
-          watchSlidesProgress
-          {...infoParams}
-        >
-          {TESTIMONIALS_DATA.map((testimonial, index) => (
-            <SwiperSlide key={`testimonial-info-${index}`}>
-              <Image src={testimonial.image} alt="testimonials image" />
-              <Heading as="h3">{testimonial.heading}</Heading>
-              <Text as="span">{testimonial.designation}</Text>
-            </SwiperSlide>
-          ))}
-        </Swiper>
       </Container>
     </Box>
   );
 };
 
-export default Testimonials;
+export default Portfolio;
 
 const styles = {
   testimonials: {
@@ -188,7 +111,7 @@ const styles = {
         fontSize: [15, null, '15px'],
         lineHeight: 1,
         display: 'block',
-        display: ['none', null, 'block'],
+       // display: ['none', null, 'block'],
         marginTop: '10px',
       },
     },

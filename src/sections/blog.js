@@ -31,7 +31,7 @@ const FeatureData = [
   },
 ];
 
-const Feature = () => {
+const Blog = () => {
   const ref = useRef(null);
   const goNext = () => {
     if (ref.current !== null && ref.current.swiper !== null) {
@@ -82,10 +82,10 @@ const Feature = () => {
     },
   };
   return (
-    <Box sx={styles.features} id="news">
+    <Box sx={styles.features} id="blog">
       <Container>
         <BlockTitle
-          slogan="Quality features"
+          slogan="Blog"
           title="Tutorials that people love most"
           styles={styles.blockTitle}
         />
@@ -115,7 +115,7 @@ const Feature = () => {
   );
 };
 
-export default Feature;
+export default Blog;
 
 const styles = {
   blockTitle: {

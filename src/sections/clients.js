@@ -57,30 +57,11 @@ const styles = {
     features: {
         pt: ['80px', null, null, null, null, null, '120px'],
         pb: ['80px', null, null, null, '170px'],
-        backgroundColor: '#F8FAFC',
+        backgroundColor: '#FFFFFF',
         '.swiper-slider': {
             overflowY: 'visible',
             overflowX: 'hidden',
         },
     },
-    carouselBtns: {
-        display: ['flex', null, null, null, null, 'none'],
-        justifyContent: 'center',
-        alignItems: 'center',
-        button: {
-            border: 'none',
-            outline: 'none',
-            backgroundColor: 'transparent',
-            fontSize: [2, null, 4, null, 5],
-            color: '#BBC7D7',
-            width: 'auto',
-            padding: [0],
-            margin: '0 5px',
-            mt: '15px',
-            transition: '500ms',
-            '&:hover, &:active, &:focus': {
-                color: 'primary',
-            },
-        },
-    },
+
 };

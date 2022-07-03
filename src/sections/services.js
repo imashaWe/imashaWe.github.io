@@ -3,33 +3,33 @@ import { Box, Container, Grid, Heading, Text } from 'theme-ui';
 import BlockTitle from 'components/block-title';
 import Image from 'components/image';
 
-import icon1 from 'assets/icons/service-1-1.svg';
-import icon2 from 'assets/icons/service-1-2.svg';
-import icon3 from 'assets/icons/service-1-3.svg';
-import icon4 from 'assets/icons/service-1-4.svg';
+import icon1 from 'assets/services/mobile.png';
+import icon2 from 'assets/services/web.png';
+import icon3 from 'assets/services/cloud.png';
+import icon4 from 'assets/services/ai.png';
 
 const SERVICES_DATA = [
   {
     icon: icon1,
-    title: 'Unlimited Customization',
+    title: 'Mobile Solutions',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     icon: icon2,
-    title: 'Vector shape & resizable',
+    title: 'Web Solutions',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     icon: icon3,
-    title: 'Editing freedom',
+    title: 'Cloud Solutions',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     icon: icon4,
-    title: 'Best Award history',
+    title: 'AI Solutions',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
@@ -40,7 +40,7 @@ const Services = () => {
     <Box sx={styles.services} id="services">
       <Container>
         <BlockTitle
-          slogan="Quality features"
+          slogan="Services"
           title="Meet exciting feature of app"
           styles={styles.blockTitle}
         />

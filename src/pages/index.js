@@ -1,37 +1,31 @@
 import React from 'react';
-import { ThemeProvider } from 'theme-ui';
-import { StickyProvider } from 'contexts/app/app.provider';
+import {ThemeProvider} from 'theme-ui';
+import {StickyProvider} from 'contexts/app/app.provider';
 import theme from 'theme';
 import SEO from 'components/seo';
 import Layout from 'components/layout';
 
 import Banner from 'sections/banner';
 import Services from 'sections/services';
-import Testimonials from 'sections/testimonials';
-import CustomerSupport from 'sections/customer-support';
-import Feature from 'sections/feature';
-import VideoOne from 'sections/video-one';
+import Portfolio from 'sections/portfolio';
+import Blog from 'sections/blog';
 import CallToAction from 'sections/call-to-action';
-import BoostAgencies from 'sections/boost-agencies';
 import Clients from "../sections/clients";
 
 export default function IndexPage() {
-  return (
-    <ThemeProvider theme={theme}>
-      <StickyProvider>
-        <Layout>
-          <SEO title="Startup Landing 006" />
-          <Banner />
-          <Clients/>
-          <Services />
-          <BoostAgencies />
-          <VideoOne />
-          <Testimonials />
-          <CustomerSupport />
-          <Feature />
-          <CallToAction />
-        </Layout>
-      </StickyProvider>
-    </ThemeProvider>
-  );
+    return (
+        <ThemeProvider theme={theme}>
+            <StickyProvider>
+                <Layout>
+                    <SEO title="Startup Landing 006"/>
+                    <Banner/>
+                    <Clients/>
+                    <Services/>
+                    <Portfolio/>
+                    <Blog/>
+                    <CallToAction/>
+                </Layout>
+            </StickyProvider>
+        </ThemeProvider>
+    );
 }

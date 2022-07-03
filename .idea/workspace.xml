@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e92d0e-bbd2-4c3d-80da-550f9f791b2a" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/public/logos/mhc.png" afterDir="false" />
+    <list default="true" id="a3e92d0e-bbd2-4c3d-80da-550f9f791b2a" name="Changes" comment="add clients">
+      <change afterPath="$PROJECT_DIR$/src/assets/services/ai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/services/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/services/mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/services/web.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/boost-agencies.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/clients.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/clients.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/customer-support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/feature.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/testimonials.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/video-one.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/services" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -54,6 +59,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Commercial Project\My\imashaWe.github.io\src\assets\services" />
       <recent name="D:\Projects\Commercial Project\My\imashaWe.github.io" />
       <recent name="D:\Projects\Commercial Project\My\imashaWe.github.io\src\assets\logos" />
     </key>
@@ -86,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656829036191</updated>
-      <workItem from="1656829037486" duration="5657000" />
+      <workItem from="1656829037486" duration="8829000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1656830747376</created>
@@ -95,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656830747376</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add clients">
+      <created>1656835133395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656835133395</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add clients" />
+    <option name="LAST_COMMIT_MESSAGE" value="add clients" />
   </component>
 </project>
