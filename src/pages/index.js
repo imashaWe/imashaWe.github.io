@@ -13,6 +13,7 @@ import Feature from 'sections/feature';
 import VideoOne from 'sections/video-one';
 import CallToAction from 'sections/call-to-action';
 import BoostAgencies from 'sections/boost-agencies';
+import Clients from "../sections/clients";
 
 export default function IndexPage() {
   return (
@@ -21,6 +22,7 @@ export default function IndexPage() {
         <Layout>
           <SEO title="Startup Landing 006" />
           <Banner />
+          <Clients/>
           <Services />
           <BoostAgencies />
           <VideoOne />
