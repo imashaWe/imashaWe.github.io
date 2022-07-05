@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3e92d0e-bbd2-4c3d-80da-550f9f791b2a" name="Changes" comment="edit body">
-      <change afterPath="$PROJECT_DIR$/src/components/DeviceMockup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/portfolio-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/styles/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/buttos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/styles/button.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logos/mhc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/clients.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -47,8 +42,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/icons" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -59,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Commercial Project\My\imashaWe.github.io\public\icons" />
       <recent name="D:\Projects\Commercial Project\My\imashaWe.github.io\src\pages" />
       <recent name="D:\Projects\Commercial Project\My\imashaWe.github.io\src\assets\services" />
       <recent name="D:\Projects\Commercial Project\My\imashaWe.github.io" />
