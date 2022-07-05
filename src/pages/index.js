@@ -10,7 +10,7 @@ import Services from 'sections/services';
 import Portfolio from 'sections/portfolio';
 import Blog from 'sections/blog';
 import CallToAction from 'sections/call-to-action';
-import Clients from "../sections/clients";
+
 
 export default function IndexPage() {
     return (
@@ -19,7 +19,6 @@ export default function IndexPage() {
                 <Layout>
                     <SEO title="Startup Landing 006"/>
                     <Banner/>
-                    <Clients/>
                     <Services/>
                     <Portfolio/>
                     <Blog/>
