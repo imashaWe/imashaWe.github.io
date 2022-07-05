@@ -10,12 +10,13 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    "devices.css": "^0.1.15",
     "@sendgrid/mail": "^7.2.6",
+    "devices.css": "^0.1.15",
     "dotenv": "^8.2.0",
     "framer-motion": "^2.7.5",
     "globby": "^11.0.0",
     "isomorphic-unfetch": "^3.0.0",
+    "moment": "^2.29.3",
     "next": "9.5.3",
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.5.5",
@@ -27,6 +28,7 @@
     "react-icons": "^3.9.0",
     "react-id-swiper": "^4.0.0",
     "react-modal-video": "1.2.6",
+    "react-moment": "^1.1.2",
     "react-scroll": "^1.8.0",
     "react-stickynode": "^3.0.3",
     "react-waypoint": "^9.0.2",

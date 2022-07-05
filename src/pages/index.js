@@ -10,9 +10,10 @@ import Services from 'sections/services';
 import Portfolio from 'sections/portfolio';
 import Blog from 'sections/blog';
 import CallToAction from 'sections/call-to-action';
+import MediumApiService from "../services/mediumApiService";
 
 
-export default function IndexPage() {
+export default function IndexPage(data) {
     return (
         <ThemeProvider theme={theme}>
             <StickyProvider>
@@ -21,10 +22,17 @@ export default function IndexPage() {
                     <Banner/>
                     <Services/>
                     <Portfolio/>
-                    <Blog/>
+                    <Blog posts={data.posts}/>
                     <CallToAction/>
                 </Layout>
             </StickyProvider>
         </ThemeProvider>
     );
+}
+
+IndexPage.getInitialProps = async (ctx) => {
+    const res = await MediumApiService.getMediumArticles;
+    return {
+        posts: res.items
+    };
 }
