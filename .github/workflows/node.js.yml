@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm ci
-    - run: npm next build
+    - run: next build
     - run: npm run export
 
     - name: Deploy 🚀
