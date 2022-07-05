@@ -3,6 +3,7 @@ import {Box, Container} from 'theme-ui';
 import BlockTitle from 'components/block-title';
 import {portfolio} from 'utils/data';
 import PortfolioItem from "../components/portfolio-item";
+import {GithubButton} from "../components/buttos";
 
 const Portfolio = () => {
 

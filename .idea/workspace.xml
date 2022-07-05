@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e92d0e-bbd2-4c3d-80da-550f9f791b2a" name="Changes" comment="edit body">
-      <change afterPath="$PROJECT_DIR$/src/components/buttos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/styles/button.css" afterDir="false" />
+    <list default="true" id="a3e92d0e-bbd2-4c3d-80da-550f9f791b2a" name="Changes" comment="add play and app store buttons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DeviceMockup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DeviceMockup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/portfolio-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/portfolio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656840109253</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add play and app store buttons">
+      <created>1657016436773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657016436773</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +144,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="add clients" />
     <MESSAGE value="edit body" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit body" />
+    <MESSAGE value="add play and app store buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="add play and app store buttons" />
   </component>
 </project>

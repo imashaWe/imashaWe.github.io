@@ -1,9 +1,8 @@
 import React from 'react';
 
 const DeviceMockup = (props) => {
-
     return (
-        <div className="device device-iphone-x">
+        <div className={`device ${props.device}`}>
             <div className="device-frame">
                 <img
                     className="device-content"

@@ -1,7 +1,7 @@
 export const portfolio = [
     {
         title: 'MHC Online Radio',
-        type: 'mobile',
+        device: 'device-iphone-x',
         project: 'commercial',
         description: "First Srilanka's online stereo radio channel which can hear 24 hours from all over the world streaming from south Korea. Every Sri Lankan can join and enjoy music, listen to many programs.",
         cover: 'https://mir-s3-cdn-cf.behance.net/project_modules/source/92b48d28674549.55cc21b0edd04.gif',
@@ -18,8 +18,8 @@ export const portfolio = [
     },
     {
         title: 'MHC Online Radio',
-        type: 'mobile',
         project: 'commercial',
+        device: 'device-iphone-x',
         description: "First Srilanka's online stereo radio channel which can hear 24 hours from all over the world streaming from south Korea. Every Sri Lankan can join and enjoy music, listen to many programs.",
         cover: 'https://mir-s3-cdn-cf.behance.net/project_modules/source/92b48d28674549.55cc21b0edd04.gif',
         images: [
