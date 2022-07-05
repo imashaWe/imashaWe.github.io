@@ -1,17 +1,17 @@
 /** @jsx jsx */
-import { jsx, Image } from 'theme-ui';
-import { Link } from 'components/link';
-import logo from 'assets/logo.svg';
+import {jsx, Avatar, Heading} from 'theme-ui';
+import {Link} from 'components/link';
+import me from 'assets/me.png';
 
 export default function Logo() {
-  return (
-    <Link
-      path="/"
-      sx={{
-        variant: 'links.logo',
-      }}
-    >
-      <Image src={logo} sx={{ display: 'flex' }} alt="startup landing logo" />
-    </Link>
-  );
+    return (
+        <Link
+            path="/"
+            sx={{
+                variant: 'links.logo',
+            }}
+        >
+            <Avatar src={me}/>
+        </Link>
+    );
 }

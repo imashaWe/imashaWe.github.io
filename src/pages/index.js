@@ -18,7 +18,7 @@ export default function IndexPage(data) {
         <ThemeProvider theme={theme}>
             <StickyProvider>
                 <Layout>
-                    <SEO title="Startup Landing 006"/>
+                    <SEO title="imashaWe"/>
                     <Banner/>
                     <Services/>
                     <Portfolio/>
