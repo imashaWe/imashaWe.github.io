@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && next dev",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && next build",
-    "serve": "SET NODE_OPTIONS=--openssl-legacy-provider && next start",
-    "export": "SET NODE_OPTIONS=--openssl-legacy-provider && next export",
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && next dev",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "serve": "set NODE_OPTIONS=--openssl-legacy-provider && next start",
+    "export": "set NODE_OPTIONS=--openssl-legacy-provider && next export",
     "postbuild": "next-sitemap"
   },
   "dependencies": {
