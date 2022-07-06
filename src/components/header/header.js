@@ -11,6 +11,7 @@ import MobileDrawer from './mobileDrawer';
 import menuItems from './header.data';
 import {FaGithub} from 'react-icons/fa';
 import {Constant} from "../../config/Constant";
+import OpenLink from "../open-link";
 
 export default function Header({className}) {
     return (
@@ -34,13 +35,11 @@ export default function Header({className}) {
                             </ScrollLink>
                         ))}
                     </Flex>
-                    <NextLink
-                        href={Constant.github}
-                        sx={{
-                            variant: 'links.logo',
-                        }}>
-                        <FaGithub size={50} style={{cursor: 'pointer'}}/>
-                    </NextLink>
+                    <OpenLink
+                        path={Constant.github}
+                    >
+                        <FaGithub size={50} sx={styles.gitHubLink}/>
+                    </OpenLink>
                     <MobileDrawer/>
                 </Container>
             </header>
@@ -113,4 +112,11 @@ const styles = {
             },
         },
     },
+    gitHubLink: {
+        variant: 'links.logo',
+        '@media screen and (max-width: 960px)': {
+            display: 'none',
+        },
+    }
+
 };

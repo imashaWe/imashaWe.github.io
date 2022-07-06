@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e92d0e-bbd2-4c3d-80da-550f9f791b2a" name="Changes" comment="implemented medium articles">
-      <change afterPath="$PROJECT_DIR$/src/assets/me.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/Constant.js" afterDir="false" />
+    <list default="true" id="a3e92d0e-bbd2-4c3d-80da-550f9f791b2a" name="Changes" comment="update deploy">
+      <change afterPath="$PROJECT_DIR$/src/components/open-link.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/tutorial-1-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/tutorial-1-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/tutorial-1-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/mediumApiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/mediumApiService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/mobileDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/mobileDrawer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/Constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/Constant.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,17 @@
       <recent name="D:\Projects\Commercial Project\My\imashaWe.github.io\public" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -81,9 +87,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="export" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="export" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.export" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +159,42 @@
       <option name="project" value="LOCAL" />
       <updated>1657031751697</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update header">
+      <created>1657035447860</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657035447860</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update deploy">
+      <created>1657041002383</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657041002383</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update deploy">
+      <created>1657041198229</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657041198229</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update deploy">
+      <created>1657043521054</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657043521054</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update deploy">
+      <created>1657117299096</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657117299096</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +220,8 @@
     <MESSAGE value="add play and app store buttons" />
     <MESSAGE value="add device type" />
     <MESSAGE value="implemented medium articles" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented medium articles" />
+    <MESSAGE value="update header" />
+    <MESSAGE value="update deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="update deploy" />
   </component>
 </project>

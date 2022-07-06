@@ -1,22 +1,22 @@
 import React from 'react';
-import {Link} from "./link";
 import {FaGithub} from 'react-icons/fa'
+import OpenLink from "./open-link";
 
 export const PlayStoreButton = (props) => {
     return (
-        <a className="btn btn-google" href={props.url} title="Play Store">Google Play</a>
+        <a className="btn btn-google" href={props.url} title="Play Store" target="_blank">Google Play</a>
     );
 }
 
 export const AppStoreButton = (props) => {
     return (
-        <a className="btn btn-apple" href={props.url} title="App Store">Google Play</a>
+        <a className="btn btn-apple" href={props.url} title="App Store" target="_blank">Google Play</a>
     );
 }
 
 export const GithubButton = (props) => {
     return (
-        <Link
+        <OpenLink
             path={props.url}
             ml={2}
 
@@ -25,7 +25,7 @@ export const GithubButton = (props) => {
         >
             <FaGithub size={25}/>
             <span>Github</span>
-        </Link>
+        </OpenLink>
     );
 }
 const styles = {
@@ -50,7 +50,7 @@ const styles = {
             mt: 1,
             mr: 2
         },
-        span:{
+        span: {
             fontSize: "20px"
         }
     },
