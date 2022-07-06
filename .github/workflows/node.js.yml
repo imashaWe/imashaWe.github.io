@@ -27,7 +27,7 @@ jobs:
       
 
     - name: Installing my packages1
-      run: yarn install
+      run: npm install --force
     - name: Installing my packages2
       run: npm ci
     - name: Build my App  
