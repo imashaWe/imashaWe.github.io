@@ -1,5 +1,5 @@
 import {Box, Container, Divider, Grid, Heading, Text} from "theme-ui";
-import DeviceMockup from "./DeviceMockup";
+import DeviceMockup from "./device-mockup";
 import React from "react";
 import {AppStoreButton, GithubButton, PlayStoreButton} from "./buttos";
 
@@ -7,7 +7,7 @@ const PortfolioItem = (props) => {
     let itemStyle = styles.grid1;
     const items = [
         <Box key={1}>
-            <DeviceMockup src={props.data.cover} device={props.data.device}/>
+            <DeviceMockup images={props.data.images} device={props.data.device}/>
         </Box>,
         <Box key={2}>
             <Heading as='h2'>{props.data.title}</Heading>

@@ -11,8 +11,8 @@ export const portfolio = [
             'https://res.cloudinary.com/dxrhrbot0/image/upload/v1656855991/portfolio/Screenshot_1646891007_bi1dvi.png'
         ],
         links: [
-            {type: 'playstore', 'url': '/'},
-            {type: 'appstore', 'url': '/'},
+            {type: 'playstore', 'url': 'https://play.google.com/store/apps/details?id=com.myhangulcafe.radio'},
+            {type: 'appstore', 'url': 'https://apps.apple.com/lk/app/mhc-radio/id1616603912'},
         ]
 
     },
