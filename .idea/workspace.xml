@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3e92d0e-bbd2-4c3d-80da-550f9f791b2a" name="Changes" comment="update design">
-      <change afterPath="$PROJECT_DIR$/src/components/device-mockup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DeviceMockup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/post-card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post-card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/call-to-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/call-to-action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/banner.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +115,7 @@
       <workItem from="1656829037486" duration="26359000" />
       <workItem from="1656928800034" duration="2377000" />
       <workItem from="1656994422222" duration="2670000" />
-      <workItem from="1657177181573" duration="2736000" />
+      <workItem from="1657177181573" duration="2824000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1656830747376</created>
@@ -210,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657123694330</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update design">
+      <created>1657179981016</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657179981016</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

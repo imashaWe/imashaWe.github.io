@@ -15,10 +15,8 @@ const Banner = () => {
                         </Heading>
                         <Text as="p">
                             I'm a software developer who has good experience in both Mobile and Web application
-                            development. Specialization in Flutter, Angular, React, Laravel, Codeigniter, ExpressJS, and
-                            Django. And also SQL and NO-SQL databases such as MySQL, PostgreSQL, and MongoDB. I have
-                            hands-on experience in mobile and web development platform Firebase. If you would like to
-                            hire a result-oriented, reliable, and responsive person who is getting the job done and
+                            development. If you would like to hire a result-oriented, reliable, and responsive person
+                            who is getting the job done and
                             whose key to success is attention to detail, then feel free to contact me.
                         </Text>
                     </Box>
