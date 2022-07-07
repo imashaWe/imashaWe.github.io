@@ -1,6 +1,8 @@
 import React from 'react';
 import {FaGithub} from 'react-icons/fa'
 import OpenLink from "./open-link";
+import {Button} from "theme-ui";
+import {Constant} from "../config/Constant";
 
 export const PlayStoreButton = (props) => {
     return (
@@ -16,16 +18,10 @@ export const AppStoreButton = (props) => {
 
 export const GithubButton = (props) => {
     return (
-        <OpenLink
-            path={props.url}
-            ml={2}
-
-            sx={styles.btn}
-            variant="buttons.primary"
-        >
-            <FaGithub size={25}/>
-            <span>Github</span>
-        </OpenLink>
+        <Button variant="primary" sx={styles.gitBtn}
+                onClick={() => window.open(props.url, '_blank')}>
+            <FaGithub size={20}/> <span style={{marginLeft: '5px'}}>Github</span>
+        </Button>
     );
 }
 const styles = {
@@ -53,5 +49,22 @@ const styles = {
         span: {
             fontSize: "20px"
         }
+    },
+    gitBtn: {
+        fontSize: '15px',
+        fw: '700',
+        height: '48px',
+        borderRadius: '3px',
+        cursor: 'pointer',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        py: '0',
+        backgroundColor: '#24292F',
+        color: '#fff',
+        '&:hover': {
+            color: '#fff',
+            backgroundColor: '#6D6D6D',
+        },
     },
 }

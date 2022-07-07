@@ -4,6 +4,7 @@ import React from "react";
 import {AppStoreButton, GithubButton, PlayStoreButton} from "./buttos";
 
 const PortfolioItem = (props) => {
+    let styles = props.data.type == 'mobile' ? mobileStyles : webStyles;
     let itemStyle = styles.grid1;
     const items = [
         <Box key={1}>
@@ -45,7 +46,7 @@ const PortfolioItem = (props) => {
 
 export default PortfolioItem;
 
-const styles = {
+const mobileStyles = {
     grid1: {
         gridTemplateColumns: [
             '1fr',
@@ -64,6 +65,29 @@ const styles = {
             '2fr 1fr',
             null,
             '2fr 1fr',
+        ],
+    },
+}
+
+const webStyles = {
+    grid1: {
+        gridTemplateColumns: [
+            '1fr',
+            null,
+            null,
+            '1fr 1fr',
+            null,
+            '1fr 1fr',
+        ],
+    },
+    grid2: {
+        gridTemplateColumns: [
+            '1fr',
+            null,
+            null,
+            '1fr 1fr',
+            null,
+            '1fr 1fr',
         ],
     },
 }
