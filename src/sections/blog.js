@@ -22,6 +22,11 @@ const Blog = ({posts}) => {
         slidesPerView: 3,
         slidesPerGroup: posts.length,
         spaceBetween: 30,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false
+        },
+        loop: true,
         breakpoints: {
             0: {
                 slidesPerView: 1,
