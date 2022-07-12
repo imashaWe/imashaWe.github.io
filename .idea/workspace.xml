@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3e92d0e-bbd2-4c3d-80da-550f9f791b2a" name="Changes" comment="update design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/device-mockup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/device-mockup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

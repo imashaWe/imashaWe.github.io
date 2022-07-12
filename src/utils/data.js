@@ -39,5 +39,27 @@ export const portfolio = [
             {type: 'github', 'url': 'https://github.com/imashaWe/LMS'},
         ]
 
+    }, {
+        title: 'Family Live Spots',
+        type: 'mobile',
+        project: 'open',
+        device: 'device-google-pixel-2-xl',
+        description: "Family Live spot is a location tracking app that allows users to share and track each other locations. That app mainly targets Family members: Both Parents and children. It supports real-time location sync and customizable maximum time limit location records saving(In device or Cloud).",
+        cover: 'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657207746/portfolio/Screenshot_7_7_2022_8_22_10_PM_hdbumt.png',
+        images: [
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657601695/portfolio/fam/Screenshot_1645522457_levvbx.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657601694/portfolio/fam/Screenshot_1645522467_zmjpxw.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657601702/portfolio/fam/Screenshot_1645522517_asmyz0.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657601706/portfolio/fam/Screenshot_1645522535_in7spu.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657601705/portfolio/fam/Screenshot_1645522543_fg3xmy.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657601696/portfolio/fam/Screenshot_1645522547_d1uphy.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657601699/portfolio/fam/Screenshot_1645522555_hnkg7q.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657601706/portfolio/fam/Screenshot_1645522565_ijkdo0.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657601702/portfolio/fam/Screenshot_1645522560_u85mqs.png'
+        ],
+        links: [
+            {type: 'github', 'url': 'https://github.com/imashaWe/family-live-spots'},
+        ]
+
     }
 ];
