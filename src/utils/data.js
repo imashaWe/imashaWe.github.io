@@ -12,8 +12,8 @@ export const portfolio = [
             'https://res.cloudinary.com/dxrhrbot0/image/upload/v1656855991/portfolio/Screenshot_1646891007_bi1dvi.png'
         ],
         links: [
-            {type: 'playstore', 'url': 'https://play.google.com/store/apps/details?id=com.myhangulcafe.radio'},
-            {type: 'appstore', 'url': 'https://apps.apple.com/lk/app/mhc-radio/id1616603912'},
+            {type: 'playstore', url: 'https://play.google.com/store/apps/details?id=com.myhangulcafe.radio'},
+            {type: 'appstore', url: 'https://apps.apple.com/lk/app/mhc-radio/id1616603912'},
         ]
 
     },
@@ -36,7 +36,7 @@ export const portfolio = [
             'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657258318/portfolio/lms/Screenshot_61_odckwh.png',
         ],
         links: [
-            {type: 'github', 'url': 'https://github.com/imashaWe/LMS'},
+            {type: 'github', url: 'https://github.com/imashaWe/LMS'},
         ]
 
     }, {
@@ -58,7 +58,62 @@ export const portfolio = [
             'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657601702/portfolio/fam/Screenshot_1645522560_u85mqs.png'
         ],
         links: [
-            {type: 'github', 'url': 'https://github.com/imashaWe/family-live-spots'},
+            {type: 'github', url: 'https://github.com/imashaWe/family-live-spots'},
+        ]
+
+    }, {
+        title: 'Scratch',
+        type: 'mobile',
+        project: 'commercial',
+        device: 'device-google-pixel-2-xl',
+        description: "The Scratch app allows you to scan scratch cards by simply placing the smartphone camera on the top of the scratch card. No matter about scratch card position. You can scan it in any direction.",
+        cover: 'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657207746/portfolio/Screenshot_7_7_2022_8_22_10_PM_hdbumt.png',
+        images: [
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657896207/portfolio/scratch/Screenshot_2022_0715_194618_sjlnha.jpg',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657896207/portfolio/scratch/Screenshot_2022_0715_194507_lyohuw.jpg',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657896287/portfolio/scratch/Screenshot_2022_0715_194538_s42j6q.jpg',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657896208/portfolio/scratch/Screenshot_20220715_194552_mc9pds.jpg'
+        ],
+        links: [
+            {type: 'playstore', url: 'https://play.google.com/store/apps/details?id=lk.softmatic.scratch'},
+        ]
+
+    }, {
+        title: 'Place App',
+        type: 'mobile',
+        project: 'commercial',
+        device: 'device-google-pixel-2-xl',
+        description: "This app is a travel app and it has several places. Users allow to search and filter and book a place. App available in UAE. ",
+        cover: 'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657207746/portfolio/Screenshot_7_7_2022_8_22_10_PM_hdbumt.png',
+        images: [
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657896936/portfolio/place-app/Screenshot_1613100533_evy3f7.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657896976/portfolio/place-app/Screenshot_1612866066_ce3k9o.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657896965/portfolio/place-app/Screenshot_1612771751_eot36s.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657896946/portfolio/place-app/Screenshot_1612971967_ubixf8.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657896953/portfolio/place-app/Screenshot_1612972354_vlvaf6.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657896938/portfolio/place-app/Screenshot_1612971863_fhclit.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657896941/portfolio/place-app/Screenshot_1612971867_kljtjz.png'
+        ],
+        links: []
+
+    }, {
+        title: 'Chat App',
+        type: 'mobile',
+        project: 'open',
+        device: 'device-google-pixel-2-xl',
+        description: "Open-source, cloud-based, and real-time chat app. Users can chat using either text or images. It has the OTP authentication feature. ",
+        cover: 'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657207746/portfolio/Screenshot_7_7_2022_8_22_10_PM_hdbumt.png',
+        images: [
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657898427/portfolio/chat-app/s3_wgm6je.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657898426/portfolio/chat-app/s4_j1qaxw.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657898421/portfolio/chat-app/s2_sc1vui.png',
+            'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657898420/portfolio/chat-app/s1_jalz1h.png'
+        ],
+        links: [
+            {
+                type: 'github',
+                url: 'https://github.com/imashaWe/ChatApp'
+            }
         ]
 
     }

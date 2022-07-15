@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e92d0e-bbd2-4c3d-80da-550f9f791b2a" name="Changes" comment="update design">
+    <list default="true" id="a3e92d0e-bbd2-4c3d-80da-550f9f791b2a" name="Changes" comment="add new projects">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/data.js" afterDir="false" />
     </list>
@@ -117,6 +117,7 @@
       <workItem from="1656928800034" duration="2377000" />
       <workItem from="1656994422222" duration="2670000" />
       <workItem from="1657177181573" duration="12418000" />
+      <workItem from="1657895689733" duration="2993000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1656830747376</created>
@@ -223,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657209805467</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add new projects">
+      <created>1657603044311</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1657603044311</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +260,7 @@
     <MESSAGE value="update header" />
     <MESSAGE value="update deploy" />
     <MESSAGE value="update design" />
-    <option name="LAST_COMMIT_MESSAGE" value="update design" />
+    <MESSAGE value="add new projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new projects" />
   </component>
 </project>
