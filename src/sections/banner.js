@@ -1,8 +1,8 @@
 import React from 'react';
 import {Box, Container, Grid, Button, Input, Heading, Text} from 'theme-ui';
-
 import Image from 'components/image';
 import bannerImg from 'assets/banner-image-1-1.png';
+import TechnicalSkills from "../components/technical-skills";
 
 const Banner = () => {
     return (
@@ -11,19 +11,18 @@ const Banner = () => {
                 <Grid sx={styles.grid}>
                     <Box sx={styles.content}>
                         <Heading as="h3">
-                            Hi,I'm Imasha
+                            Hey! I’m Imasha
                         </Heading>
                         <Text as="p">
-                            I'm a software developer who has good experience in both Mobile and Web application
-                            development. If you would like to hire a result-oriented, reliable, and responsive person
-                            who is getting the job done and
-                            whose key to success is attention to detail, then feel free to contact me.
+                            I’m a software developer with good experience in mobile and web application development.
                         </Text>
+                        <TechnicalSkills/>
                     </Box>
                     <Box sx={styles.image}>
                         <Image src={bannerImg} alt=""/>
                     </Box>
                 </Grid>
+
             </Container>
         </Box>
     );

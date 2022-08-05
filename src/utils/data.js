@@ -22,7 +22,7 @@ export const portfolio = [
         type: 'web',
         project: 'open',
         device: 'device-imac-pro',
-        description: "First Srilanka's online stereo radio channel which can hear 24 hours from all over the world streaming from south Korea. Every Sri Lankan can join and enjoy music, listen to many programs.",
+        description: "This is a learning management system that provides basic functionalities to engage both students and lecturers",
         cover: 'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657207746/portfolio/Screenshot_7_7_2022_8_22_10_PM_hdbumt.png',
         images: [
             'https://res.cloudinary.com/dxrhrbot0/image/upload/v1657258245/portfolio/lms/Screenshot_64_ntkuok.png',

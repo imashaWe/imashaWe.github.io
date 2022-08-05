@@ -65,7 +65,7 @@ const Blog = ({posts}) => {
             <Container>
                 <BlockTitle
                     slogan="Blog"
-                    title="Tutorials that people love most"
+                    title="Articles to gain knowledge"
                     styles={styles.blockTitle}
                 />
 
