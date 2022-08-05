@@ -2,6 +2,7 @@ import React from 'react';
 import {Box, Container, Grid, Button, Input, Heading, Text, Divider} from 'theme-ui';
 import Image from 'components/image';
 import bannerImg from 'assets/banner-image-1-1.png';
+import programmerVector from 'assets/programmer-vactor.png';
 import TechnicalSkills from "../components/technical-skills";
 
 const Banner = () => {
@@ -22,7 +23,7 @@ const Banner = () => {
 
                     </Box>
                     <Box sx={styles.image}>
-                        <Image src={bannerImg} alt=""/>
+                        <Image src={programmerVector} alt="" style={{width:'100%'}}/>
                     </Box>
                 </Grid>
 
