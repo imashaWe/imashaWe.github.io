@@ -11,7 +11,7 @@ import {
     FaSwift,
     FaKot
 } from 'react-icons/fa';
-import {SiKotlin, SiFlutter, SiDart, SiIos, SiAndroid} from 'react-icons/si'
+import {SiKotlin, SiFlutter, SiDart, SiIos, SiAndroid,SiDocker,SiAmazon} from 'react-icons/si'
 
 export const technologies = {
     php: <FaPhp/>,
@@ -27,6 +27,8 @@ export const technologies = {
     android: <SiAndroid/>,
     ios: <SiIos/>,
     react: <FaReact/>,
-    angular: <FaAngular/>
+    angular: <FaAngular/>,
+    docker: <SiDocker/>,
+    aws: <SiAmazon/>,
 
 }
