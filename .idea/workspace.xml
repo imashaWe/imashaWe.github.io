@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a3e92d0e-bbd2-4c3d-80da-550f9f791b2a" name="Changes" comment="update design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/technical-skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/technical-skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/banner.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/technologies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/technologies.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +123,7 @@
       <workItem from="1658037869845" duration="9000" />
       <workItem from="1658110408287" duration="598000" />
       <workItem from="1659629140318" duration="35000" />
-      <workItem from="1659635217587" duration="4214000" />
+      <workItem from="1659635217587" duration="6251000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1656830747376</created>
@@ -249,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659683168481</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update design">
+      <created>1659683388525</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659683388525</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

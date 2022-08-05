@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, Container, Grid, Button, Input, Heading, Text} from 'theme-ui';
+import {Box, Container, Grid, Button, Input, Heading, Text, Divider} from 'theme-ui';
 import Image from 'components/image';
 import bannerImg from 'assets/banner-image-1-1.png';
 import TechnicalSkills from "../components/technical-skills";
@@ -16,7 +16,10 @@ const Banner = () => {
                         <Text as="p">
                             I’m a software developer with good experience in mobile and web application development.
                         </Text>
+
+                        <Heading as="h4">Technical Skills:</Heading>
                         <TechnicalSkills/>
+
                     </Box>
                     <Box sx={styles.image}>
                         <Image src={bannerImg} alt=""/>
