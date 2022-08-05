@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e92d0e-bbd2-4c3d-80da-550f9f791b2a" name="Changes" comment="update deploy">
-      <change afterPath="$PROJECT_DIR$/src/components/open-link.js" afterDir="false" />
+    <list default="true" id="a3e92d0e-bbd2-4c3d-80da-550f9f791b2a" name="Changes" comment="update design">
+      <change afterPath="$PROJECT_DIR$/src/assets/programmer-vactor.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/buttos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/mobileDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/mobileDrawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/Constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/Constant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/banner.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2BQCgo7Ste1q4JGMfxoamAXR5Og" />
@@ -116,6 +117,12 @@
       <workItem from="1656829037486" duration="26359000" />
       <workItem from="1656928800034" duration="2377000" />
       <workItem from="1656994422222" duration="2670000" />
+      <workItem from="1657177181573" duration="12418000" />
+      <workItem from="1657895689733" duration="3806000" />
+      <workItem from="1658037869845" duration="9000" />
+      <workItem from="1658110408287" duration="598000" />
+      <workItem from="1659629140318" duration="35000" />
+      <workItem from="1659635217587" duration="7017000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1656830747376</created>
@@ -194,7 +201,70 @@
       <option name="project" value="LOCAL" />
       <updated>1657117299096</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update design">
+      <created>1657123694330</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657123694330</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update design">
+      <created>1657179981016</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657179981016</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update design">
+      <created>1657180064097</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657180064097</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update design">
+      <created>1657209805467</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1657209805467</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add new projects">
+      <created>1657603044311</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1657603044311</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add new projects">
+      <created>1657899121835</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657899121836</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update design">
+      <created>1659683168481</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659683168481</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update design">
+      <created>1659683388525</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659683388525</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update design">
+      <created>1659711859204</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1659711859204</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +292,8 @@
     <MESSAGE value="implemented medium articles" />
     <MESSAGE value="update header" />
     <MESSAGE value="update deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="update deploy" />
+    <MESSAGE value="add new projects" />
+    <MESSAGE value="update design" />
+    <option name="LAST_COMMIT_MESSAGE" value="update design" />
   </component>
 </project>

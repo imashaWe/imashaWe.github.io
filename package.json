@@ -29,8 +29,10 @@
     "react-modal-video": "1.2.6",
     "react-moment": "^1.1.2",
     "react-scroll": "^1.8.0",
+    "react-slick": "^0.29.0",
     "react-stickynode": "^3.0.3",
     "react-waypoint": "^9.0.2",
+    "slick-carousel": "^1.8.1",
     "swiper": "^6.3.1",
     "theme-ui": "^0.3.1",
     "typeface-dm-sans": "^1.1.3"

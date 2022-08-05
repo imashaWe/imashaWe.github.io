@@ -1,9 +1,9 @@
 import React from 'react';
 import {Box, Heading, Text} from 'theme-ui';
 import Image from 'components/image';
-import {Link} from 'components/link';
 import Moment from 'react-moment';
 import {AiOutlineFieldTime} from 'react-icons/ai';
+import OpenLink from "./open-link";
 
 const PostCard = (props) => {
     return (
@@ -13,7 +13,7 @@ const PostCard = (props) => {
             </Box>
             <Box sx={styles.content}>
                 <Heading as="h3">
-                    <Link path={props.path}>{props.title}</Link>
+                    <OpenLink path={props.path}>{props.title}</OpenLink>
                 </Heading>
                 <Text as="p">
                     <AiOutlineFieldTime size={20}/>
