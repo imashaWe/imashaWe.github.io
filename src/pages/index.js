@@ -11,20 +11,23 @@ import Portfolio from 'sections/portfolio';
 import Blog from 'sections/blog';
 import CallToAction from 'sections/call-to-action';
 import MediumApiService from "../services/mediumApiService";
+import {ModalPreviewProvider} from "../components/device-mockup-modal";
 
 
 export default function IndexPage(data) {
     return (
         <ThemeProvider theme={theme}>
             <StickyProvider>
-                <Layout>
-                    <SEO title="imashaWe"/>
-                    <Banner/>
-                    <Services/>
-                    <Portfolio/>
-                    <Blog posts={data.posts}/>
-                    <CallToAction/>
-                </Layout>
+                <ModalPreviewProvider>
+                    <Layout>
+                        <SEO title="imashaWe"/>
+                        <Banner/>
+                        <Services/>
+                        <Portfolio/>
+                        <Blog posts={data.posts}/>
+                        <CallToAction/>
+                    </Layout>
+                </ModalPreviewProvider>
             </StickyProvider>
         </ThemeProvider>
     );
