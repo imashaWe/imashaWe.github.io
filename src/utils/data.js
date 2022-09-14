@@ -118,3 +118,7 @@ export const portfolio = [
 
     }
 ];
+
+export const details = {
+    'cv':'https://drive.google.com/file/d/18c_ep_VShMxwVsuC2dKOsW9bh4a-rSNX/view?usp=sharing'
+}
