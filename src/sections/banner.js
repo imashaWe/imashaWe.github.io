@@ -4,6 +4,8 @@ import Image from 'components/image';
 import bannerImg from 'assets/banner-image-1-1.png';
 import programmerVector from 'assets/programmer-vactor.png';
 import TechnicalSkills from "../components/technical-skills";
+import btnShape from "../assets/cta-btn-shape-1.svg";
+import {details} from "../utils/data";
 
 const Banner = () => {
     return (
@@ -15,15 +17,17 @@ const Banner = () => {
                             Hey! I’m Imasha
                         </Heading>
                         <Text as="p">
-                            I’m a software developer with good experience in mobile and web application development.
+                            Passionate Software Engineering undergraduate with hands-on experience in software
+                            development. Keen to learn new technologies and best coding practices. Ability to work in a
+                            team environment.
                         </Text>
+                        <Button sx={styles.btn} onClick={()=>{window.open(details.cv, '_blank')}}>DOWNLOAD RESUME</Button>
 
                         <Heading as="h4">Technical Skills:</Heading>
                         <TechnicalSkills/>
-
                     </Box>
                     <Box sx={styles.image}>
-                        <Image src={programmerVector} alt="" style={{width:'100%'}}/>
+                        <Image src={programmerVector} alt="" style={{width: '100%'}}/>
                     </Box>
                 </Grid>
 
@@ -123,6 +127,42 @@ const styles = {
             mb: ['20px', null, null, null, '0px'],
             mr: [null, null, null, null, '20px'],
             flex: ['0 0 100%', null, null, null, '0 0 auto'],
+        },
+    },
+    btn: {
+        backgroundColor: '#fff',
+        color: 'black',
+        borderRadius: '5px',
+        fontSize: [0, 1, null, null, null, null, '17px'],
+        fontWeight: '700',
+        letterSpacing: '0.1em',
+        fontFamily: 'body',
+        padding: ['10px 24px', null, null, null, null, '15px 44px'],
+        position: 'relative',
+        outline: 'none',
+        webkitAppearance: 'none',
+        border: '2px solid black',
+        paddingBottom: '15px',
+        '&:before, &:after': {
+            content: '""',
+            position: 'absolute',
+            width: '73px',
+            height: '26px',
+            backgroundImage: `url(${btnShape})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+            bottom: 'calc(100% + 10px)',
+            left: '50%',
+            transform: 'translateX(-50%)',
+        },
+        '&:after': {
+            bottom: 'auto',
+            top: 'calc(100% + 10px)',
+            transform: 'translateX(-50%) rotate(180deg)',
+        },
+        '&:hover': {
+            backgroundColor: 'black',
+            color: '#fff',
         },
     },
 };
