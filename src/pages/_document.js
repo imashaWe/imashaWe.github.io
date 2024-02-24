@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class CustomDocument extends Document {
   static async getInitialProps(ctx) {
@@ -14,6 +14,7 @@ class CustomDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
             rel="stylesheet"
           />
+          <link rel="alternate" type="application/rdf+xml" href="/foaf.rdf" />
         </Head>
         <body>
           <Main />

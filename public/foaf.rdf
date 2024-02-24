@@ -1,0 +1,21 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Imasha Weerakoon</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Imasha</foaf:givenname>
+<foaf:family_name>Weerakoon</foaf:family_name>
+<foaf:nick>Imasha</foaf:nick>
+<foaf:mbox_sha1sum>f31d57823e30fccfc1e9d9391c9d9e418bb803f0</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="https://imashawe.github.io/"/>
+<foaf:depiction rdf:resource="https://imashawe.github.io/_next/static/images/me-7ff9ac0b122cba27079ab4786f6b6502.png"/></foaf:Person>
+</rdf:RDF>
